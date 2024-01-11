@@ -85,6 +85,12 @@ button {
 
 .cell.clicked {
     background-color: skyblue;
+    cursor: not-allowed;
+}
+
+.cell.clicked.bomb {
+    background-color: red;
+    cursor: not-allowed;
 }
 
 
