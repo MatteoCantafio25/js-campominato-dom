@@ -1,0 +1,104 @@
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Generics */
+
+button {
+    width: 70px;
+    height: 25px;
+    border-radius: 5px;
+}
+
+
+/* Utils */
+.d-none {
+    display: none;
+}
+
+.d-block {
+    display: block;
+}
+
+.v-hidden {
+    visibility: hidden;
+}
+
+
+/* Header */
+.header-container {
+    height: 100px;
+    max-width: 1400px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.left {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.right {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+/* Main */
+.main-container {
+    width: 100%;
+    height: 740px;
+    background-color: aquamarine;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#grid {
+    width: 600px;
+    height: 600px;
+    margin: 60px auto;
+    display: flex;
+    cursor: pointer;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+#grid .cell {
+    height: calc(100% / 10);
+    width: calc(100% / 10);
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cell.clicked {
+    background-color: skyblue;
+}
+
+
+/* Footer */
+
+.footer-container {
+    height: 80px;
+    max-width: 1400px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.boolean {
+    margin-left: 5px;
+}
